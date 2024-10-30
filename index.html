@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Season Way</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    
+    <style>
+        #carousel-exemplo {
+            max-height: 85vh; 
+            overflow: hidden; 
+        }
+        
+        .carousel-item img {
+            height: 85vh; 
+            object-fit: cover; 
+        }
+
+        body{
+            background-color: #d0c36b;
+        }
+        .custom-img-size {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+</style>
+
+</style>
+</head>
+<body>
+    <header class="container text-center my-4">
+        
+        <div id="carousel-exemplo" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img src="imagens/christmas-4705310_1280.jpg" class="d-block w-100" alt="Imagem 1">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="imagens/christmas-6743572_1280.jpg" class="d-block w-100" alt="Imagem 2">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="imagens/presents-6904620_1280.jpg" class="d-block w-100" alt="Imagem 3">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="imagens/doll-figures-3015495_1280.jpg" class="d-block w-100" alt="Imagem 4">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="imagens/star-6860582_1280 (2).jpg" class="d-block w-100" alt="Imagem 5">
+                </div>
+            </div>
+            
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mt-4">
+            <div class="container">
+                <a class="navbar-brand" href="#">História do Início do Natal</a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                        
+                <div class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#bolasnatalinas">Bolas Natalinas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#arvoredenatal">Árvores de Natal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#enfeites">Enfeites de Natal</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+          
+    </header>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4 mt-5">
+                <div class="card">
+                    <div class="card-header text-bg-secundary" id="bolasnatalinas">
+                        <img src="./produtos/christmas-1867048_1280.jpg" class="product-img-top custom-img-size" alt="Bolas de Natal">
+                        <div class="card-body">
+                            <h4 class="card-title">Origem das Bolas Natalinas</h4>
+                            <h5 class="card-subtitle mt-3"> Bolas Natalinas Prateadas </h5>
+                            <p class="card-text mt-3">
+                                As bolas natalinas surgiram no século 19 na Alemanha, onde árvores eram decoradas com frutas e velas. A tradição de usar enfeites de vidro começou na cidade de Lauscha, com artesãos criando esferas de vidro soprado. Esses enfeites rapidamente se tornaram ícones das celebrações natalinas na Europa.
+                            </p>
+                            <a href="#" class="btn btn-dark mb-3">Veja mais</a> <!-- Classe mb-3 adiciona uma margem inferior -->
+                            <footer class="card-footer">
+                              Exibido em <time datetime="2024-01-29T19:00">29/10/2024 às 19:00</time>
+                            </footer>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mt-5">
+                <div class="card">
+                    <div class="card-header text-bg-secundary" id="arvoresnatalinas">
+                        <img src="./produtos/christmas-6902574_1280.jpg" class="product-img-top custom-img-size" alt="Arvore de Natal">
+                        <div class="card-body">
+                            <h4 class="card-title">Origem das Arvores Natalinas</h4>
+                            <h5 class="card-subtitle mt-3"> Arvore de natal enfeitada</h5>
+                            <p class="card-text mt-3">
+                                A tradição das árvores de Natal remonta ao século 16 na Alemanha, onde as famílias decoravam pinheiros com maçãs, flores de papel e velas para celebrar o Natal. Essa prática se espalhou pela Europa e ganhou popularidade mundial, tornando-se um dos símbolos mais icônicos das celebrações natalinas.
+                            </p>
+                            
+                            <a href="#" class="btn btn-dark mb-3">Veja mais</a> <!-- Classe mb-3 adiciona uma margem inferior -->
+                            <footer class="card-footer">
+                              Exibido em <time datetime="2024-01-29T19:00">29/10/2024 às 19:00</time>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mt-5">
+                <div class="card">
+                    <div class="card-header text-bg-secundary" id="comidasnatalinas">
+                        <img src="./produtos/biscoito.jpg" class="product-img-top custom-img-size" alt="comidas de Natal">
+                        <div class="card-body">
+                            <h4 class="card-title">Origem das Culinarias Natalinas</h4>
+                            <h5 class="card-subtitle mt-3"> Biscoitos de natal </h5>
+                            <p class="card-text mt-3">
+                                Na Inglaterra, o peru assado tornou-se popular no século 16, enquanto o panetone, tradicional na Itália, surgiu em Milão como um pão doce. Já o hábito de consumir rabanadas e castanhas é comum em Portugal e na Espanha, simbolizando prosperidade para o novo ano. A celebração da fartura e união familiar durante o Natal.
+                            </p>
+                            <a href="#" class="btn btn-dark mb-3">Veja mais</a> <!-- Classe mb-3 adiciona uma margem inferior -->
+                            <footer class="card-footer">
+                              Exibido em <time datetime="2024-01-29T19:00">29/10/2024 às 19:00</time>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mt-5">
+                <div class="card">
+                    <div class="card-header text-bg-secundary" id="papainoelnatal">
+                        <img src="./produtos/santa clauss.jpg" class="product-img-top custom-img-size" alt="papai noel natal">
+                        <div class="card-body">
+                            <h4 class="card-title">Origem do Papai Noel</h4>
+                            <h5 class="card-subtitle mt-3"> Santa Clauss </h5>
+                            <p class="card-text mt-3">
+                                A figura do Papai Noel, também conhecido como Santa Claus, tem suas origens em São Nicolau, um bispo do século IV na região da atual Turquia, conhecido por sua generosidade e atos de bondade. Sua imagem foi trazida para a cultura ocidental por imigrantes holandeses nos Estados Unidos, onde "Sinterklaas" evoluiu para "Santa Claus."
+                            </p>
+                            <a href="#" class="btn btn-dark mb-3">Veja mais</a> <!-- Classe mb-3 adiciona uma margem inferior -->
+                            <footer class="card-footer">
+                              Exibido em <time datetime="2024-01-29T19:00">29/10/2024 às 19:00</time>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
